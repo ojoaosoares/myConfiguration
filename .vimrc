@@ -13,11 +13,8 @@ Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 Plug 'honza/vim-snippets'
 Plug 'jiangmiao/auto-pairs'
-if( extensao == "cpp" || extensao == "cc" || extensao == "h" || extensao == "hpp" )
 Plug 'ycm-core/YouCompleteMe'
-else
 Plug 'zxqfl/tabnine-vim'
-endif
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'ervandew/supertab'
